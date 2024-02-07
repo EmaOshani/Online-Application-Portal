@@ -1,0 +1,39 @@
+.input-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.input-box {
+    width: 50px; /* Adjust width as needed */
+    height: 50px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+ .dotinput {
+    border: none;
+    border-bottom: 4px dotted black; /* You can adjust the color and thickness as needed */
+    outline: none; /* Optional: to remove the focus outline */
+    width: 2000px; /* Adjusted width */
+    break-after: always; /* Ensure division into two lines */
+    max-width: 100%;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.list{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: circle;
+
+}
+
+button{
+    margin-top: 30px;
+    float: right;
+    font-size: 20.8px;
+}
+

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 55%;
+    padding: 8px;
+}
+
+.box2{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 55%;
+    padding: 8px;
+}
+
+label{
+    font-size: 17px;
+}
+
+.heading{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.label-1{
+    font-size: 19px;
+}
+
+#datepicker{
+    border: 1px solid black;
+}
+
+.list1{
+    list-style-type:square;
+    
+}
+
+.list1 li::marker{
+    color: rgb(0, 0, 0);
+    font-size: 25px;  
+}
+
+@media only screen and (max-width:1310px){
+    .label-1{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1070px){
+    .label-1{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .label-1{
+        font-size: 17px;
+    }
+
+    .browse{
+        margin-top: 5px;
+    }
+}

@@ -14,9 +14,10 @@
 .card {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
+    margin-top: 10px;
     min-height: 450px;
-    width: 800px;
+    width: 836px;
     flex-direction: column;
     gap: 35px;
     background: #d6d3d379;
@@ -24,3 +25,95 @@
           -16px -16px 32px #fefefe; */
     border-radius: 8px;
   }
+
+  .input{
+    width: 400px;
+  }
+
+ 
+  .next{
+    margin-left: 400px;
+    border: 1px solid black;
+  }
+
+  .nextbtn{
+    margin-left: 630px;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    background-color: rgba(40, 40, 197, 0.836);
+  }
+
+  .otp{
+    margin-left: 400px;
+    font-weight: 900;
+  }
+
+  .inputnone{
+    width: 440px;
+    margin-left: 260px;
+    
+  }
+
+  .agr{
+    font-size: 23px;
+    font-weight: 400;
+  }
+
+  .searchbtn{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(40, 40, 197, 0.836);;
+  }
+
+  /* Responsive styles for tablets */
+@media only screen and (max-width: 768px) {
+  .imagebox img {
+      width: 100%;
+      height: auto;
+  }
+
+  .card {
+      width: 100%;
+  }
+
+  .input,
+  .next,
+  .nextbtn,
+  .otp,
+  .inputnone,
+  .agr,
+  .searchbtn {
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 480px) {
+  .imagebox img {
+      width: 100%;
+      height: auto;
+  }
+
+  .card {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .input,
+  .next,
+  .nextbtn,
+  .otp,
+  .inputnone,
+  .agr,
+  .searchbtn {
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+  }
+}
